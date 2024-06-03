@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="guestRegistration" verbose="1">
+    <test name="Nopackage">
+        <classes>
+            <class name="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests"/>
+            <class name="smartyflip_testng.tests.registration.negative.RegistrationPageNegativeTests"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Smoky" verbose="1">
+    <test name="Smoky">
+        <classes>
+            <class name="smartyflip_testng.tests.donate.DonatePageTests"/>
+            <class name="smartyflip_testng.tests.footer.FooterPageTests"/>
+            <class name="smartyflip_testng.tests.home.HomePagePositiveTests"/>
+            <class name="smartyflip_testng.tests.aboutUs.AboutUsPageTests"/>
+            <class name="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests"/>
+            <class name="smartyflip_testng.tests.login.positive.LoginPagePositiveTests"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="smartyflip_testng.tests.donate.DonatePageTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-05-29T18:50:12" hostname="ENVICHKA" time="0.851">
+  <properties/>
+  <testcase name="checkBrokenImagesTest" classname="smartyflip_testng.tests.donate.DonatePageTests" time="0.627"/>
+  <testcase name="donateBitcoinTextIsPresent" classname="smartyflip_testng.tests.donate.DonatePageTests" time="0.032"/>
+  <testcase name="donateHeaderTextIsPresent" classname="smartyflip_testng.tests.donate.DonatePageTests" time="0.017"/>
+  <testcase name="donateMaestroTextIsPresent" classname="smartyflip_testng.tests.donate.DonatePageTests" time="0.016"/>
+  <testcase name="donateMasterCardTextIsPresent" classname="smartyflip_testng.tests.donate.DonatePageTests" time="0.028"/>
+  <testcase name="donatePayPalTextIsPresent" classname="smartyflip_testng.tests.donate.DonatePageTests" time="0.018"/>
+  <system-out><![CDATA[20:50:12.012 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [checkBrokenImagesTest]
+We have 12 images
+http://localhost:5173/assets/iconBig.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/donate/coffee.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/donate/maestro.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/donate/mastercard.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/donate/paypal.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/donate/bitcoin.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/iconBig.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/facebook.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/insta.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/telegram.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/linkedin1.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/whatsapp.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+20:50:12.819 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [checkBrokenImagesTest], with VALUES: []
+20:50:12.819 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [donateBitcoinTextIsPresent]
+20:50:12.870 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [donateBitcoinTextIsPresent], with VALUES: []
+20:50:12.870 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [donateHeaderTextIsPresent]
+20:50:12.919 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [donateHeaderTextIsPresent], with VALUES: []
+20:50:12.919 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [donateMaestroTextIsPresent]
+20:50:12.945 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [donateMaestroTextIsPresent], with VALUES: []
+20:50:12.945 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [donateMasterCardTextIsPresent]
+20:50:12.989 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [donateMasterCardTextIsPresent], with VALUES: []
+20:50:12.989 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [donatePayPalTextIsPresent]
+20:50:13.028 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [donatePayPalTextIsPresent], with VALUES: []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

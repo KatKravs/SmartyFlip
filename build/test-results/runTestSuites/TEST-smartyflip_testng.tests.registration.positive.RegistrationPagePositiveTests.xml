@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" tests="30" skipped="0" failures="0" errors="0" timestamp="2024-05-29T18:50:19" hostname="ENVICHKA" time="176.953">
+  <properties/>
+  <testcase name="greetingTextIsPresent" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="0.049"/>
+  <testcase name="registeredUserValidDataProviderPositive[0](Joahn, Doel, joahndoe1@example.com, testuser2, Test!123)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="6.457"/>
+  <testcase name="registeredUserValidDataProviderPositive[1](Jane, Smith, janesmith1@example.com, Demoaccou1, Demo$Pass2022)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="6.989"/>
+  <testcase name="registeredUserValidDataProviderPositive[2](Alice, Johnson, alicejohnson1@example.com, user1234%, Secure#Pwd567)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="6.652"/>
+  <testcase name="registeredUserValidDataProviderPositive[3](Bob, Miller, bobmiller1@example.com, trialuse1, Test$Pass789)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="6.014"/>
+  <testcase name="registeredUserValidDataProviderPositive[4](Charlie, Brown, charliebrown1@example.com, awesom1, Awesome!12345)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="6.049"/>
+  <testcase name="registeredUserValidDataProviderPositive[5](Eva, Clark, evaclark1@example.com, dummyuse1, Dummy$Pass456)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="6.068"/>
+  <testcase name="registeredUserValidDataProviderPositive[6](David, Williams, davidwilliams1@example.com, explorer1, Explore$Test789)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="5.922"/>
+  <testcase name="registeredUserValidDataProviderPositive[7](Olivia, Jones, oliviajones1@example.com, betauser11, Beta$UserPass!33)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="5.723"/>
+  <testcase name="registeredUserValidDataProviderPositive[8](Michael, Smith, michaelsmith1@example.com, verif1, Verify$Pass2022)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="6.138"/>
+  <testcase name="registeredUserValidDataProviderPositive[9](Sophie, Anderson, sophieanderson1@example.com, happytes1, Happy$Testing!333)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="5.871"/>
+  <testcase name="registeredUserValidDataProviderPositive[10](Alex, White, alexwhite1@example.com, techtes1, Tech$Pass123)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="6.154"/>
+  <testcase name="registeredUserValidDataProviderPositive[11](Emma, Taylor, emataylor1@example.com, qualit1, Quality!123)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="5.997"/>
+  <testcase name="registeredUserValidDataProviderPositive[12](Daniel, Baker, danielbaker1@example.com, trialac1, Trial$Pass456)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="6.069"/>
+  <testcase name="registeredUserValidDataProviderPositive[13](Oliver, Hall, oliverhall1@example.com, email1, Email!Test789)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="6.178"/>
+  <testcase name="registeredUserValidDataProviderPositive[14](Mia, Wilson, miawilson1@example.com, secureu1, Secure$User2022)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="6.012"/>
+  <testcase name="registeredUserValidDataProviderPositive[15](Sophia, Moore, sophiamoore1@example.com, happ1, Happy$Testing!33)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="6.042"/>
+  <testcase name="registeredUserValidDataProviderPositive[16](Liam, Carter, liamcarter1@example.com, User4561, User$Pass1233)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="5.935"/>
+  <testcase name="registeredUserValidDataProviderPositive[17](Ava, Martin, avamartin1@example.com, testaccO1, Test$12345)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="6.143"/>
+  <testcase name="registeredUserValidDataProviderPositive[18](Lucas, Harris, lucasharris1@example.com, betauser41, Beta$UserPass!333)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="5.824"/>
+  <testcase name="registeredUserValidDataProviderPositive[19](Ella, Cooper, ellacooper1@example.com, securet%1, Secure$Test2022)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="5.835"/>
+  <testcase name="registeredUserValidDataProviderPositive[20](Jackson, Fisher, jacksonfisher1@example.com, quality1, Quality!Test123)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="6.069"/>
+  <testcase name="registeredUserValidDataProviderPositive[21](Isabella, Clark, isabellaclark1@example.com, explor12, Explore$Test789)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="6.161"/>
+  <testcase name="registeredUserValidDataProviderPositive[22](Leo, Ward, leoward1@example.com, dummyus21, Dummy#Pass456)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="5.897"/>
+  <testcase name="registeredUserValidDataProviderPositive[23](Oliver, Adams, oliveradams1@example.com, prodtest1, Prod#Test2023)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="6.178"/>
+  <testcase name="registeredUserValidDataProviderPositive[24](Liam, Grey, liamgrey1@example.com, verifyus1, Verify#Test2022)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="5.725"/>
+  <testcase name="registeredUserValidDataProviderPositive[25](Zoe, Turner, zoeturner1@example.com, techeng1, Tech#Engineer123)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="6.075"/>
+  <testcase name="registeredUserValidDataProviderPositive[26](Ethan, Williams, ethanwilliams1@example.com, qauser!1, QA#Tester2022)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="5.965"/>
+  <testcase name="registeredUserValidDataProviderPositive[27](Luna, Knight, lunaknight1@example.com, happyt1, Happy#TestUser123)" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="5.781"/>
+  <testcase name="registrationUserWithValidDataPositiveTest" classname="smartyflip_testng.tests.registration.positive.RegistrationPagePositiveTests" time="5.613"/>
+  <system-out><![CDATA[20:50:19.045 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [greetingTextIsPresent]
+20:50:19.153 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [greetingTextIsPresent], with VALUES: []
+20:50:19.186 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:50:25.683 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Joahn, Doel, joahndoe1@example.com, testuser2, Test!123]
+20:50:25.691 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:50:32.749 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Jane, Smith, janesmith1@example.com, Demoaccou1, Demo$Pass2022]
+20:50:32.755 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:50:39.461 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Alice, Johnson, alicejohnson1@example.com, user1234%, Secure#Pwd567]
+20:50:39.461 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:50:45.525 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Bob, Miller, bobmiller1@example.com, trialuse1, Test$Pass789]
+20:50:45.525 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:50:51.610 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Charlie, Brown, charliebrown1@example.com, awesom1, Awesome!12345]
+20:50:51.610 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:50:57.728 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Eva, Clark, evaclark1@example.com, dummyuse1, Dummy$Pass456]
+20:50:57.736 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:51:03.699 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [David, Williams, davidwilliams1@example.com, explorer1, Explore$Test789]
+20:51:03.707 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:51:09.465 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Olivia, Jones, oliviajones1@example.com, betauser11, Beta$UserPass!33]
+20:51:09.465 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:51:15.646 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Michael, Smith, michaelsmith1@example.com, verif1, Verify$Pass2022]
+20:51:15.646 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:51:21.565 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Sophie, Anderson, sophieanderson1@example.com, happytes1, Happy$Testing!333]
+20:51:21.570 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:51:27.765 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Alex, White, alexwhite1@example.com, techtes1, Tech$Pass123]
+20:51:27.769 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:51:33.811 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Emma, Taylor, emataylor1@example.com, qualit1, Quality!123]
+20:51:33.811 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:51:39.922 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Daniel, Baker, danielbaker1@example.com, trialac1, Trial$Pass456]
+20:51:39.922 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:51:46.134 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Oliver, Hall, oliverhall1@example.com, email1, Email!Test789]
+20:51:46.134 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:51:52.195 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Mia, Wilson, miawilson1@example.com, secureu1, Secure$User2022]
+20:51:52.195 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:51:58.279 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Sophia, Moore, sophiamoore1@example.com, happ1, Happy$Testing!33]
+20:51:58.280 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:52:04.251 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Liam, Carter, liamcarter1@example.com, User4561, User$Pass1233]
+20:52:04.251 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:52:10.431 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Ava, Martin, avamartin1@example.com, testaccO1, Test$12345]
+20:52:10.439 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:52:16.297 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Lucas, Harris, lucasharris1@example.com, betauser41, Beta$UserPass!333]
+20:52:16.297 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:52:22.182 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Ella, Cooper, ellacooper1@example.com, securet%1, Secure$Test2022]
+20:52:22.182 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:52:28.287 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Jackson, Fisher, jacksonfisher1@example.com, quality1, Quality!Test123]
+20:52:28.288 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:52:34.489 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Isabella, Clark, isabellaclark1@example.com, explor12, Explore$Test789]
+20:52:34.489 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:52:40.434 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Leo, Ward, leoward1@example.com, dummyus21, Dummy#Pass456]
+20:52:40.443 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:52:46.668 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Oliver, Adams, oliveradams1@example.com, prodtest1, Prod#Test2023]
+20:52:46.668 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:52:52.442 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Liam, Grey, liamgrey1@example.com, verifyus1, Verify#Test2022]
+20:52:52.443 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:52:58.558 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Zoe, Turner, zoeturner1@example.com, techeng1, Tech#Engineer123]
+20:52:58.558 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:53:04.565 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Ethan, Williams, ethanwilliams1@example.com, qauser!1, QA#Tester2022]
+20:53:04.572 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registeredUserValidDataProviderPositive]
+20:53:10.402 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registeredUserValidDataProviderPositive], with VALUES: [Luna, Knight, lunaknight1@example.com, happyt1, Happy#TestUser123]
+20:53:10.402 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [registrationUserWithValidDataPositiveTest]
+20:53:16.057 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [registrationUserWithValidDataPositiveTest], with VALUES: []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

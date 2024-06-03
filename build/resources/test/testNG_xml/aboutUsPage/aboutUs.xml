@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="aboutUsSuite" verbose="1">
+    <test name="aboutUsPage">
+        <classes>
+            <class name="smartyflip_testng.tests.aboutUs.AboutUsPageTests"/>
+        </classes>
+    </test>
+</suite>

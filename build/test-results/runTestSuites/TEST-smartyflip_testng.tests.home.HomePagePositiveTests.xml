@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="smartyflip_testng.tests.home.HomePagePositiveTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-05-29T18:50:14" hostname="ENVICHKA" time="2.683">
+  <properties/>
+  <testcase name="checkBrokenImagesTest" classname="smartyflip_testng.tests.home.HomePagePositiveTests" time="2.517"/>
+  <testcase name="verifyHomePageInvitationTextDisplayedTest" classname="smartyflip_testng.tests.home.HomePagePositiveTests" time="0.04"/>
+  <testcase name="verifyHomePageLogoTitleDisplayedTest" classname="smartyflip_testng.tests.home.HomePagePositiveTests" time="0.048"/>
+  <testcase name="verifyHomePageTitleDescriptionDisplayedTest" classname="smartyflip_testng.tests.home.HomePagePositiveTests" time="0.034"/>
+  <system-out><![CDATA[20:50:14.663 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [checkBrokenImagesTest]
+We have 38 images
+http://localhost:5173/assets/iconBig.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/iconBig.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/java.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/i2.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/mysql.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/javascript.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/csharp.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/i1.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/i6.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/i3.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/i5.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/xamarin.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/go.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/php.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/react.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/xamarin.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/java.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/javascript.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/csharp.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/python.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/postgresql.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/mysql.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/html.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/type_css.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/home/vuejs.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/al.png - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/linus.png - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/ed.png - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/messenger.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/discord.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/Linkedin.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/youtube.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/iconBig.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/facebook.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/insta.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/telegram.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/linkedin1.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/whatsapp.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+20:50:17.196 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [checkBrokenImagesTest], with VALUES: []
+20:50:17.204 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [verifyHomePageInvitationTextDisplayedTest]
+20:50:17.252 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [verifyHomePageInvitationTextDisplayedTest], with VALUES: []
+20:50:17.261 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [verifyHomePageLogoTitleDisplayedTest]
+20:50:17.313 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [verifyHomePageLogoTitleDisplayedTest], with VALUES: []
+20:50:17.313 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [verifyHomePageTitleDescriptionDisplayedTest]
+20:50:17.362 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [verifyHomePageTitleDescriptionDisplayedTest], with VALUES: []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

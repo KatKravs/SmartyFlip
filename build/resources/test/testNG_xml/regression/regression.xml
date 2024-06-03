@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Regression" verbose="1">
+    <test name="Regression">
+        <packages>
+            <package name="smartyflip_testng.tests.registration"/>
+            <package name="smartyflip_testng.tests.login"/>
+            <package name="smartyflip_testng.tests.aboutUs"/>
+            <package name="smartyflip_testng.tests.donate"/>
+            <package name="smartyflip_testng.tests.cabinet"/>
+            <package name="smartyflip_testng.tests.forgotPassword"/>
+            <package name="smartyflip_testng.tests.footer"/>
+            <package name="smartyflip_testng.tests.home"/>
+        </packages>
+    </test>
+</suite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="smartyflip_testng.tests.footer.FooterPageTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-05-29T18:50:13" hostname="ENVICHKA" time="1.585">
+  <properties/>
+  <testcase name="checkBrokenLinkTest" classname="smartyflip_testng.tests.footer.FooterPageTests" time="1.517"/>
+  <testcase name="smallSmartyFlipIconIsPresent" classname="smartyflip_testng.tests.footer.FooterPageTests" time="0.017"/>
+  <testcase name="smartyFlipGmailCom" classname="smartyflip_testng.tests.footer.FooterPageTests" time="0.02"/>
+  <testcase name="textHereCould" classname="smartyflip_testng.tests.footer.FooterPageTests" time="0.013"/>
+  <system-out><![CDATA[20:50:13.034 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [checkBrokenLinkTest]
+http://localhost:5173/#/ - Connection refused: connect Error occurred
+http://localhost:5173/#/about - Connection refused: connect Error occurred
+http://localhost:5173/#/donate - Connection refused: connect Error occurred
+http://localhost:5173/# - Connection refused: connect Error occurred
+http://localhost:5173/# - Connection refused: connect Error occurred
+https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsmartyflip.de%2F&src=sdkpreparse - OK
+null - null Error occurred
+null - null Error occurred
+null - null Error occurred
+null - null Error occurred
+mailto:info@smartyflip.de - class sun.net.www.protocol.mailto.MailToURLConnection cannot be cast to class java.net.HttpURLConnection (sun.net.www.protocol.mailto.MailToURLConnection and java.net.HttpURLConnection are in module java.base of loader 'bootstrap') Error occurred
+20:50:14.595 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [checkBrokenLinkTest], with VALUES: []
+20:50:14.598 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [smallSmartyFlipIconIsPresent]
+20:50:14.622 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [smallSmartyFlipIconIsPresent], with VALUES: []
+20:50:14.622 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [smartyFlipGmailCom]
+20:50:14.650 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [smartyFlipGmailCom], with VALUES: []
+20:50:14.650 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [textHereCould]
+20:50:14.663 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [textHereCould], with VALUES: []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

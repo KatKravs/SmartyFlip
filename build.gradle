@@ -1,0 +1,81 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.seleniumhq.selenium:selenium-java:4.21.0'
+    implementation 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+    implementation group: 'org.testng', name: 'testng', version: '7.9.0'
+    implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.4.14'
+    implementation group: 'com.opencsv', name: 'opencsv', version: '5.9'
+    implementation group: 'io.cucumber', name: 'cucumber-java', version: '7.15.0'
+    implementation group: 'io.cucumber', name: 'cucumber-junit', version: '7.15.0'
+    implementation group: 'com.google.code.gson', name: 'gson', version: '2.10.1'
+    implementation group: 'io.rest-assured', name: 'rest-assured', version: '5.4.0'
+    compileOnly 'org.projectlombok:lombok:1.18.16'
+    annotationProcessor 'org.projectlombok:lombok:1.18.16'
+    testCompileOnly 'org.projectlombok:lombok:1.18.16'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
+    implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.30'
+}
+
+test {
+    useTestNG()
+}
+
+task qa(type:Test) {
+    useTestNG()
+
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser',"${browser}"
+    }
+}
+
+task runTestSuites(type: Test) {
+    useTestNG() {
+        def smokySuite = project.hasProperty("smokySuite")
+        def guestPagesSuite = project.hasProperty("guestPagesSuite")
+        def guestRegistrationSuite = project.hasProperty("guestRegistrationSuite")
+        def userLoginSuite = project.hasProperty("userLoginSuite")
+        def userForgotPasswordSuite = project.hasProperty("userForgotPasswordSuite")
+        def userCabinetSuite = project.hasProperty("userCabinetSuite")
+        def regressionSuite = project.hasProperty("regressionSuite")
+
+
+        if (smokySuite) {
+            suites 'src/test/resources/testNG_xml/smoky/smoky.xml'
+        }
+        if (guestPagesSuite) {
+            suites 'src/test/resources/testNG_xml/guest/guestPages/guestPages.xml'
+        }
+        if (guestRegistrationSuite) {
+            suites 'src/test/resources/testNG_xml/guest/guestRegistration/guestRegistration.xml'
+        }
+        if (userLoginSuite) {
+            suites 'src/test/resources/testNG_xml/user/userLogin/userLogin.xml'
+        }
+        if (userForgotPasswordSuite) {
+            suites 'src/test/resources/testNG_xml/user/userForgotPasswordPage/userForgotPasswordPage.xml'
+        }
+
+        if (userCabinetSuite) {
+            suites 'src/test/resources/testNG_xml/user/userCabinet/userCabinet.xml'
+        }
+
+        else if (regressionSuite) {
+            suites 'src/test/resources/testNG_xml/regression/regression.xml'
+        }
+
+    }
+}
+
+if (project.hasProperty('browser')) {
+    systemProperty 'browser', "${browser}"
+}

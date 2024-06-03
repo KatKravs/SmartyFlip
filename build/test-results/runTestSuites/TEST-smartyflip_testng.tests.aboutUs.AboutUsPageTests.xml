@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="smartyflip_testng.tests.aboutUs.AboutUsPageTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2024-05-29T18:50:17" hostname="ENVICHKA" time="1.632">
+  <properties/>
+  <testcase name="aboutUsContentIsPresent" classname="smartyflip_testng.tests.aboutUs.AboutUsPageTests" time="0.031"/>
+  <testcase name="aboutUsHeaderIsPresent" classname="smartyflip_testng.tests.aboutUs.AboutUsPageTests" time="0.046"/>
+  <testcase name="carouselIconIsPresent" classname="smartyflip_testng.tests.aboutUs.AboutUsPageTests" time="0.033"/>
+  <testcase name="carouselItemIsPresent" classname="smartyflip_testng.tests.aboutUs.AboutUsPageTests" time="0.033"/>
+  <testcase name="checkBrokenImagesTest" classname="smartyflip_testng.tests.aboutUs.AboutUsPageTests" time="0.689"/>
+  <testcase name="customModulesIsPresent" classname="smartyflip_testng.tests.aboutUs.AboutUsPageTests" time="0.037"/>
+  <testcase name="discordIsPresent" classname="smartyflip_testng.tests.aboutUs.AboutUsPageTests" time="0.035"/>
+  <testcase name="inspiredUsersIsPresent" classname="smartyflip_testng.tests.aboutUs.AboutUsPageTests" time="0.033"/>
+  <testcase name="linkedInIsPresent" classname="smartyflip_testng.tests.aboutUs.AboutUsPageTests" time="0.033"/>
+  <testcase name="messengerIsPresent" classname="smartyflip_testng.tests.aboutUs.AboutUsPageTests" time="0.031"/>
+  <testcase name="questionCardsIsPresent" classname="smartyflip_testng.tests.aboutUs.AboutUsPageTests" time="0.028"/>
+  <testcase name="smartyFlipBigIconIsPresent" classname="smartyflip_testng.tests.aboutUs.AboutUsPageTests" time="0.032"/>
+  <testcase name="smartyFlipSmallIconIsPresent" classname="smartyflip_testng.tests.aboutUs.AboutUsPageTests" time="0.035"/>
+  <testcase name="technologyStacksIsPresent" classname="smartyflip_testng.tests.aboutUs.AboutUsPageTests" time="0.032"/>
+  <testcase name="youtubeIsPresent" classname="smartyflip_testng.tests.aboutUs.AboutUsPageTests" time="0.033"/>
+  <system-out><![CDATA[20:50:17.373 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [aboutUsContentIsPresent]
+20:50:17.444 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [aboutUsContentIsPresent], with VALUES: []
+20:50:17.451 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [aboutUsHeaderIsPresent]
+20:50:17.537 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [aboutUsHeaderIsPresent], with VALUES: []
+20:50:17.537 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [carouselIconIsPresent]
+20:50:17.612 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [carouselIconIsPresent], with VALUES: []
+20:50:17.625 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [carouselItemIsPresent]
+20:50:17.688 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [carouselItemIsPresent], with VALUES: []
+20:50:17.688 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [checkBrokenImagesTest]
+We have 15 images
+http://localhost:5173/assets/iconBig.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/iconBig.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/al.png - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/linus.png - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/ed.png - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/messenger.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/discord.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/Linkedin.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/youtube.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/iconBig.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/facebook.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/insta.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/telegram.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/linkedin1.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+http://localhost:5173/assets/whatsapp.svg - Connection refused: connect Error occurred
+DISPLAY - OK
+===================
+20:50:18.411 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [checkBrokenImagesTest], with VALUES: []
+20:50:18.412 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [customModulesIsPresent]
+20:50:18.468 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [customModulesIsPresent], with VALUES: []
+20:50:18.476 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [discordIsPresent]
+20:50:18.541 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [discordIsPresent], with VALUES: []
+20:50:18.542 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [inspiredUsersIsPresent]
+20:50:18.609 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [inspiredUsersIsPresent], with VALUES: []
+20:50:18.612 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [linkedInIsPresent]
+20:50:18.685 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [linkedInIsPresent], with VALUES: []
+20:50:18.685 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [messengerIsPresent]
+20:50:18.745 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [messengerIsPresent], with VALUES: []
+20:50:18.747 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [questionCardsIsPresent]
+20:50:18.805 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [questionCardsIsPresent], with VALUES: []
+20:50:18.805 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [smartyFlipBigIconIsPresent]
+20:50:18.863 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [smartyFlipBigIconIsPresent], with VALUES: []
+20:50:18.863 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [smartyFlipSmallIconIsPresent]
+20:50:18.916 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [smartyFlipSmallIconIsPresent], with VALUES: []
+20:50:18.916 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [technologyStacksIsPresent]
+20:50:18.979 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [technologyStacksIsPresent], with VALUES: []
+20:50:18.979 [Test worker] INFO  smartyflip_testng.tests.TestBase -- STARTED: [youtubeIsPresent]
+20:50:19.045 [Test worker] INFO  smartyflip_testng.tests.TestBase -- PASSED: [youtubeIsPresent], with VALUES: []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
